@@ -1,7 +1,11 @@
-name: AV.BoundedViz
-references:
-- GUID:481de76113c024d4db7bd67e34d9a7ea
-rootNamespace: AV.BoundedViz
-includePlatforms:
-- Editor
-autoReferenced: true
+{
+    "name": "AV.BoundedViz",
+    "references": [
+        "GUID:481de76113c024d4db7bd67e34d9a7ea"
+    ],
+    "rootNamespace": "AV.BoundedViz",
+    "includePlatforms": [
+        "Editor"
+    ],
+    "autoReferenced": true
+}
