@@ -1,0 +1,17 @@
+# Unity generated / built files
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+[Mm]emoryCaptures/
+
+# Visual Studio cache / option files
+.vs/
+
+# Rider
+.idea/
+
+# macOS
+.DS_Store

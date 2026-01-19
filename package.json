@@ -1,0 +1,29 @@
+{
+  "name": "com.av.boundedviz",
+  "version": "1.0.0",
+  "displayName": "AV Bounded Visualization",
+  "description": "Real-time bounded visualization system for debugging game variables and data in Unity Editor.",
+  "unity": "2021.3",
+  "author": {
+    "name": "IAFahim",
+    "email": "iafahim.dev@gmail.com",
+    "url": "https://github.com/IAFahim"
+  },
+  "keywords": [
+    "debugging",
+    "visualization",
+    "editor-tools",
+    "variables"
+  ],
+  "license": "MIT",
+  "category": "Editor Extensions",
+  "dependencies": {
+    "com.variable.timer": "1.0.11"
+  },
+  "samples": [],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/IAFahim/AV.BoundedViz"
+  },
+  "licensesUrl": "https://github.com/IAFahim/AV.BoundedViz/blob/main/LICENSE.md"
+}
