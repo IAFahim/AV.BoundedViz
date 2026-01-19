@@ -3,11 +3,11 @@ using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
 
-[HelpURL("https://github.com/IAFahim/AV.BoundedViz")]
 
 namespace AV.BoundedViz.Editor
 {
     // usage: Create one instance of this in your Resources folder named "GameVariableConfig"
+    [HelpURL("https://github.com/IAFahim/AV.BoundedViz")]
     [CreateAssetMenu(fileName = "GameVariableConfig", menuName = "Variable/Editor Config")]
     public class GameVariableConfig : ScriptableObject
     {

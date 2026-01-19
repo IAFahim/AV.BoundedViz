@@ -3,10 +3,10 @@ using UnityEditor;
 using UnityEngine;
 using Variable.Timer;
 
-[HelpURL("https://github.com/IAFahim/AV.BoundedViz")]
 
 namespace AV.BoundedViz.Editor
 {
+    [HelpURL("https://github.com/IAFahim/AV.BoundedViz")]
     [CustomPropertyDrawer(typeof(Timer))]
     [CustomPropertyDrawer(typeof(Cooldown))]
     // Add other types here...
