@@ -1,62 +1,36 @@
-# AV Bounded Visualization
+# AV.BoundedViz
 
-Real-time bounded visualization system for debugging game variables and data in Unity Editor.
+![Header](documentation_header.svg)
 
-![Unity Version](https://img.shields.io/badge/unity-2021.3%2B-blue.svg)
-![License](https://img.shields.io/badge/license-MIT-green.svg)
-![Version](https://img.shields.io/badge/version-1.0.0-orange.svg)
+[![Unity](https://img.shields.io/badge/Unity-2022.3%2B-000000.svg?style=flat-square&logo=unity)](https://unity.com)
+[![License](https://img.shields.io/badge/License-MIT-blue.svg?style=flat-square)](LICENSE.md)
 
-## Features
+Professional Inspector property drawers for bounded values (Health, Mana, Timers).
 
-- **Professional Quality**: Built following Unity Package Manager best practices
-- **Well Documented**: Comprehensive documentation and examples
-- **Production Ready**: Tested and optimized for production use
+## ✨ Features
 
-## Installation
+- **Visual Bars**: Renders fields as progress bars in the Inspector.
+- **Scrubbing**: Click and drag on the bar to modify values directly in the Inspector.
+- **Auto-Detection**: Automatically works with structs containing `Current`, `Max`, and optional `Min` properties.
+- **Customizable**: Configurable heights, colors, and gradients via `GameVariableConfig`.
 
-Install this package via Unity Package Manager by adding this line to your `Packages/manifest.json`:
+## 📦 Installation
 
-```json
-"com.av.boundedviz": "https://github.com/IAFahim/AV.BoundedViz.git"
-```
+Install via Unity Package Manager (git URL).
 
-Or install via Git URL in Unity Package Manager:
-1. Open Unity Package Manager (Window > Package Manager)
-2. Click the + icon > Add package from git URL
-3. Enter: `https://github.com/IAFahim/AV.BoundedViz.git`
+### Dependencies
+- **Variable.Timer** (NuGet)
+- **Variable.Bounded** (NuGet)
 
-## Requirements
+## 🚀 Usage
 
-- Unity 2021.3 or higher
-- Dependencies will be automatically resolved by Unity Package Manager
+This package automatically applies to supported types (like `Timer` or `Cooldown`). No additional attributes are required for these standard types.
 
-## Usage
+To verify or configure visualization:
+1. Locate `GameVariableConfig` asset (or create one in `AV/BoundedViz`).
+2. Adjust colors, rounding, and height.
 
-Add components from the `AV Bounded Visualization` package to your GameObjects via the Component menu:
-`Component > AV > Bounded Visualization > [Component Name]`
+## ⚠️ Status
 
-For detailed usage instructions, see the [Samples](Samples~) included with this package.
-
-## API Documentation
-
-For complete API reference and documentation, visit: https://github.com/IAFahim/AV.BoundedViz
-
-## Changelog
-
-See [CHANGELOG.md](CHANGELOG.md) for version history.
-
-## License
-
-MIT License - see [LICENSE.md](LICENSE.md) for details.
-
-## Author
-
-IAFahim - [https://github.com/IAFahim](https://github.com/IAFahim)
-
-## Contributing
-
-Contributions are welcome! Please feel free to submit a Pull Request.
-
-## Support
-
-For issues and questions, please use the [GitHub Issues](https://github.com/IAFahim/AV.BoundedViz/issues) page.
+- 🧪 **Tests**: Missing.
+- 📘 **Samples**: None.

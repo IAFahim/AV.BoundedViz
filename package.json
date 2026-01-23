@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "displayName": "AV Bounded Visualization",
   "description": "Real-time bounded visualization system for debugging game variables and data in Unity Editor.",
-  "unity": "2021.3",
+  "unity": "2022.3",
   "author": {
     "name": "IAFahim",
     "email": "iafahim.dev@gmail.com",
